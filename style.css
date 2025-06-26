@@ -185,7 +185,7 @@ input[type="search"] {
   grid-template-areas: "proj updates";
   grid-template-columns: 3fr 1fr;
   gap: 20px;
-  
+  font-size: .5rem;
 }
 
 .proj>div, .updates>div {
@@ -201,7 +201,6 @@ input[type="search"] {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
   gap: 50px;
-  font-size: .5rem;
 }
 
 .proj > div {
@@ -232,10 +231,33 @@ input[type="search"] {
   gap: 25px;
 }
 
+.ann, .trend {
+  display: flex;
+  flex-direction: column;
+}
+
+.ann>div, .trend>div {
+  margin: 10px;
+}
+
+#ann1, #ann2, #ann3 {
+  border-bottom: 2px dashed var(--highlight1);
+}
+
 .updates div {
   background-color: #FF1493;
   --shadowcol: #C71585;
   padding: 5px;
+}
+
+.trend>div {
+  display: flex;
+  flex-direction: row;
+}
+
+.trend img[src^="images/"] {
+  width: 1rem;
+  height: auto;
 }
 
 /* .main > .ann {
