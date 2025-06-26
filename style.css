@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-areas: "side head" "side head" "side main";
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: .7fr .5fr 4fr;
+  grid-template-rows: .6fr .5fr 4fr;
   background-color: var(--font-light);
 }
 
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   grid-area: places;
 }
 
-.side img[src^="images/"], .search img[src^="images/"] {
+.side img[src^="images/"] {
   width: 1.3rem;
   height: auto;
 }
@@ -101,8 +101,9 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-areas: "search user" "headline interact";
   grid-template-columns: 1.5fr 1fr;
-  grid-template-rows: .25fr .4fr;
+  grid-template-rows: .15fr .4fr;
   gap: .1rem;
+  line-height: 1rem;
 }
 
 .head .search, .head .headline {
@@ -115,9 +116,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .head > .search {
   grid-area: search;
-  display: flex;
+  /* display: flex; */
   margin: 5px;
-  align-items: baseline;
+  align-content: center;
+  height: fit-content;
+  justify-content: center;
 }
 
 .head button {
@@ -137,11 +140,13 @@ input[type="search"]:focus {
 }
 
 #searchbutton {
-  background: url("/images/magnify.svg") no-repeat;
+  background: url("images/magnify.svg") no-repeat;
+  background-size: 1rem;
   width: 1rem;
-  height: auto;
+  height: 1rem;
   border: none;
   color: var(--font-light);
+  text-indent: -9999px;
 }
 
 .head > .user {
@@ -168,7 +173,6 @@ input[type="search"]:focus {
   grid-template-areas: "icon greeting" "icon hatter";
   align-items: start;
   gap: 0;
-  line-height: .9;
 }
 
 .head .headicon {
@@ -249,7 +253,10 @@ input[type="search"]:focus {
 }
 
 .ann>div, .trend>div {
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #ann1, #ann2, #ann3 {
