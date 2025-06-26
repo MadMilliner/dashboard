@@ -1,0 +1,148 @@
+<svg width="500" height="120" viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mad Hatter -->
+  <g id="mad-hatter">
+    <circle cx="50" cy="60" r="45" fill="#2F2F2F" stroke="#2F2F2F" stroke-width="2"/>
+    <!-- Face fills most of circle -->
+    <ellipse cx="50" cy="65" rx="35" ry="35" fill="#F5F5DC"/>
+    <!-- Hat sits on head -->
+    <path d="M20 35 Q50 20 80 35 L80 50 Q50 45 20 50 Z" fill="#2F2F2F"/>
+    <!-- Hat band -->
+    <ellipse cx="50" cy="42" rx="25" ry="6" fill="#8B0000"/>
+    <!-- Card in hat band -->
+    <rect x="45" y="39" width="10" height="6" fill="#FFF8DC"/>
+    <text x="50" y="44" text-anchor="middle" fill="#2F2F2F" font-size="4" font-family="serif">10/6</text>
+    <!-- Eyes -->
+    <circle cx="40" cy="60" r="3" fill="white"/>
+    <circle cx="60" cy="60" r="3" fill="white"/>
+    <circle cx="40" cy="60" r="2" fill="#2F2F2F"/>
+    <circle cx="60" cy="60" r="2" fill="#2F2F2F"/>
+    <!-- Nose -->
+    <path d="M50 68 L47 75 L53 75 Z" fill="#E6D3A3"/>
+    <!-- Wild mustache -->
+    <path d="M25 75 Q35 71 50 75 Q65 71 75 75" stroke="#8B4513" stroke-width="3" fill="none"/>
+    <!-- Mad grin -->
+    <path d="M35 85 Q50 93 65 85" stroke="#8B0000" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Alice -->
+  <g id="alice">
+    <circle cx="150" cy="60" r="45" fill="#DAA520"/>
+    <!-- Hair fills background -->
+    <circle cx="150" cy="60" r="45" fill="#DAA520"/>
+    <path d="M105 40 Q120 20 150 25 Q180 20 195 40 Q195 60 185 80 Q170 95 150 95 Q130 95 115 80 Q105 60 105 40" fill="#DAA520"/>
+    <!-- Headband -->
+    <ellipse cx="150" cy="35" rx="35" ry="5" fill="#4169E1"/>
+    <!-- Face -->
+    <ellipse cx="150" cy="70" rx="25" ry="30" fill="#FFF8DC"/>
+    <!-- Large innocent eyes -->
+    <circle cx="140" cy="62" r="5" fill="white"/>
+    <circle cx="160" cy="62" r="5" fill="white"/>
+    <circle cx="140" cy="62" r="4" fill="#4169E1"/>
+    <circle cx="160" cy="62" r="4" fill="#4169E1"/>
+    <circle cx="140" cy="62" r="2" fill="#2F2F2F"/>
+    <circle cx="160" cy="62" r="2" fill="#2F2F2F"/>
+    <!-- Eyebrows -->
+    <path d="M135 55 Q140 52 145 55" stroke="#B8860B" stroke-width="2" fill="none"/>
+    <path d="M155 55 Q160 52 165 55" stroke="#B8860B" stroke-width="2" fill="none"/>
+    <!-- Nose -->
+    <ellipse cx="150" cy="72" rx="2" ry="3" fill="#FFB6C1"/>
+    <!-- Gentle smile -->
+    <path d="M145 80 Q150 85 155 80" stroke="#8B0000" stroke-width="2" fill="none"/>
+    <!-- Rosy cheeks -->
+    <circle cx="130" cy="75" r="4" fill="#FFB6C1" opacity="0.5"/>
+    <circle cx="170" cy="75" r="4" fill="#FFB6C1" opacity="0.5"/>
+  </g>
+
+  <!-- Cheshire Cat -->
+  <g id="cheshire-cat">
+    <circle cx="250" cy="60" r="45" fill="#DDA0DD"/>
+    <!-- Cat fur with stripes -->
+    <path d="M205 30 Q230 20 250 25 Q270 20 295 30 Q295 60 285 85 Q270 100 250 100 Q230 100 215 85 Q205 60 205 30" fill="#DDA0DD"/>
+    <!-- Tabby stripes -->
+    <path d="M220 40 Q240 35 260 40 Q280 35 290 40" stroke="#8B008B" stroke-width="3" fill="none"/>
+    <path d="M215 55 Q235 50 255 55 Q275 50 285 55" stroke="#8B008B" stroke-width="3" fill="none"/>
+    <path d="M220 70 Q240 65 260 70 Q280 65 290 70" stroke="#8B008B" stroke-width="3" fill="none"/>
+    <path d="M225 85 Q245 80 265 85 Q285 80 295 85" stroke="#8B008B" stroke-width="3" fill="none"/>
+    <!-- Ears at top -->
+    <polygon points="230,15 240,5 250,20" fill="#DDA0DD" stroke="#8B008B" stroke-width="2"/>
+    <polygon points="250,20 260,5 270,15" fill="#DDA0DD" stroke="#8B008B" stroke-width="2"/>
+    <!-- Mysterious large eyes -->
+    <ellipse cx="235" cy="50" rx="8" ry="12" fill="#FFD700"/>
+    <ellipse cx="265" cy="50" rx="8" ry="12" fill="#FFD700"/>
+    <ellipse cx="235" cy="50" rx="3" ry="8" fill="#2F2F2F"/>
+    <ellipse cx="265" cy="50" rx="3" ry="8" fill="#2F2F2F"/>
+    <!-- Famous massive grin -->
+    <path d="M210 75 Q250 95 290 75" stroke="#2F2F2F" stroke-width="4" fill="none"/>
+    <!-- Many sharp teeth -->
+    <polygon points="225,78 227,88 229,78" fill="white"/>
+    <polygon points="235,80 237,90 239,80" fill="white"/>
+    <polygon points="245,82 247,92 249,82" fill="white"/>
+    <polygon points="255,82 257,92 259,82" fill="white"/>
+    <polygon points="265,80 267,90 269,80" fill="white"/>
+    <polygon points="275,78 277,88 279,78" fill="white"/>
+    <!-- Long whiskers -->
+    <line x1="205" y1="65" x2="225" y2="62" stroke="#2F2F2F" stroke-width="2"/>
+    <line x1="205" y1="72" x2="225" y2="68" stroke="#2F2F2F" stroke-width="2"/>
+    <line x1="275" y1="62" x2="295" y2="65" stroke="#2F2F2F" stroke-width="2"/>
+    <line x1="275" y1="68" x2="295" y2="72" stroke="#2F2F2F" stroke-width="2"/>
+  </g>
+
+  <!-- Caterpillar -->
+  <g id="caterpillar">
+    <circle cx="350" cy="60" r="45" fill="#6B8E23"/>
+    <!-- Segmented body fills circle -->
+    <ellipse cx="350" cy="35" rx="35" ry="15" fill="#9ACD32" stroke="#556B2F" stroke-width="2"/>
+    <ellipse cx="350" cy="55" rx="40" ry="18" fill="#6B8E23" stroke="#556B2F" stroke-width="2"/>
+    <ellipse cx="350" cy="75" rx="35" ry="15" fill="#9ACD32" stroke="#556B2F" stroke-width="2"/>
+    <ellipse cx="350" cy="95" rx="30" ry="12" fill="#6B8E23" stroke="#556B2F" stroke-width="2"/>
+    <!-- Wise face on main segment -->
+    <circle cx="340" cy="55" r="4" fill="#2F2F2F"/>
+    <circle cx="360" cy="55" r="4" fill="#2F2F2F"/>
+    <!-- Contemplative frown -->
+    <path d="M345 65 Q350 62 355 65" stroke="#2F2F2F" stroke-width="2"/>
+    <!-- Antennae -->
+    <line x1="340" y1="40" x2="335" y2="20" stroke="#556B2F" stroke-width="2"/>
+    <line x1="360" y1="40" x2="365" y2="20" stroke="#556B2F" stroke-width="2"/>
+    <circle cx="335" cy="20" r="2" fill="#556B2F"/>
+    <circle cx="365" cy="20" r="2" fill="#556B2F"/>
+    <!-- Hookah extends from body -->
+    <rect x="380" y="45" width="4" height="15" fill="#8B4513"/>
+    <ellipse cx="382" cy="42" rx="5" ry="4" fill="#CD853F"/>
+    <rect x="379" y="38" width="3" height="8" fill="#8B4513"/>
+    <!-- Ornate smoke -->
+    <path d="M388 35 Q392 28 388 22 Q384 15 388 10" stroke="#708090" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M392 32 Q396 25 392 18 Q388 12 392 8" stroke="#708090" stroke-width="2" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- March Hare -->
+  <g id="march-hare">
+    <circle cx="450" cy="60" r="45" fill="#D2B48C"/>
+    <!-- Large ears fill top of circle -->
+    <ellipse cx="435" cy="25" rx="8" ry="30" fill="#D2B48C" stroke="#8B7355" stroke-width="2"/>
+    <ellipse cx="465" cy="25" rx="8" ry="30" fill="#D2B48C" stroke="#8B7355" stroke-width="2"/>
+    <ellipse cx="435" cy="25" rx="4" ry="20" fill="#FFB6C1"/>
+    <ellipse cx="465" cy="25" rx="4" ry="20" fill="#FFB6C1"/>
+    <!-- Face fills most of circle -->
+    <ellipse cx="450" cy="75" rx="30" ry="25" fill="#DEB887"/>
+    <!-- Wild, startled eyes -->
+    <circle cx="440" cy="68" r="6" fill="white"/>
+    <circle cx="460" cy="68" r="6" fill="white"/>
+    <circle cx="440" cy="68" r="4" fill="#2F2F2F"/>
+    <circle cx="460" cy="68" r="4" fill="#2F2F2F"/>
+    <circle cx="440" cy="66" r="1" fill="white"/>
+    <circle cx="460" cy="66" r="1" fill="white"/>
+    <!-- Twitching nose -->
+    <ellipse cx="450" cy="78" rx="3" ry="2" fill="#2F2F2F"/>
+    <!-- Very long whiskers -->
+    <line x1="415" y1="75" x2="440" y2="76" stroke="#8B4513" stroke-width="2"/>
+    <line x1="415" y1="82" x2="440" y2="80" stroke="#8B4513" stroke-width="2"/>
+    <line x1="460" y1="76" x2="485" y2="75" stroke="#8B4513" stroke-width="2"/>
+    <line x1="460" y1="80" x2="485" y2="82" stroke="#8B4513" stroke-width="2"/>
+    <!-- Prominent buck teeth -->
+    <rect x="446" y="85" width="3" height="8" fill="white"/>
+    <rect x="451" y="85" width="3" height="8" fill="white"/>
+    <!-- Fur texture -->
+    <path d="M425 85 Q435 88 445 85" stroke="#8B7355" stroke-width="1" fill="none"/>
+    <path d="M455 85 Q465 88 475 85" stroke="#8B7355" stroke-width="1" fill="none"/>
+  </g>
+</svg>

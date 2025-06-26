@@ -1,0 +1,25 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="45" fill="#6B8E23"/>
+  <!-- Segmented body fills circle -->
+  <ellipse cx="50" cy="25" rx="35" ry="15" fill="#9ACD32" stroke="#556B2F" stroke-width="2"/>
+  <ellipse cx="50" cy="45" rx="40" ry="18" fill="#6B8E23" stroke="#556B2F" stroke-width="2"/>
+  <ellipse cx="50" cy="65" rx="35" ry="15" fill="#9ACD32" stroke="#556B2F" stroke-width="2"/>
+  <ellipse cx="50" cy="85" rx="30" ry="12" fill="#6B8E23" stroke="#556B2F" stroke-width="2"/>
+  <!-- Wise face on main segment -->
+  <circle cx="40" cy="45" r="4" fill="#2F2F2F"/>
+  <circle cx="60" cy="45" r="4" fill="#2F2F2F"/>
+  <!-- Contemplative frown -->
+  <path d="M45 55 Q50 52 55 55" stroke="#2F2F2F" stroke-width="2"/>
+  <!-- Antennae -->
+  <line x1="40" y1="30" x2="35" y2="10" stroke="#556B2F" stroke-width="2"/>
+  <line x1="60" y1="30" x2="65" y2="10" stroke="#556B2F" stroke-width="2"/>
+  <circle cx="35" cy="10" r="2" fill="#556B2F"/>
+  <circle cx="65" cy="10" r="2" fill="#556B2F"/>
+  <!-- Hookah extends from body -->
+  <rect x="80" y="35" width="4" height="15" fill="#8B4513"/>
+  <ellipse cx="82" cy="32" rx="5" ry="4" fill="#CD853F"/>
+  <rect x="79" y="28" width="3" height="8" fill="#8B4513"/>
+  <!-- Ornate smoke -->
+  <path d="M88 25 Q92 18 88 12 Q84 5 88 0" stroke="#708090" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M92 22 Q96 15 92 8 Q88 2 92 -2" stroke="#708090" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>
