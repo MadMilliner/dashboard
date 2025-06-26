@@ -42,10 +42,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .dashboard {
   --font-light: #FAF0E6;
+  --highlight1: #FFA500;
   display: grid;
   grid-template-areas: "side head" "side head" "side main";
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr .5fr 4fr;
+  background-color: var(--font-light);
 }
 
 .side {
@@ -65,11 +67,15 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: nowrap;
   margin-left: .7rem;
   align-content: center;
+  gap: 2px;
 }
 
 .side > .logo {
   grid-area: logo;
   margin-left: .7rem;
+  display: flex;
+  justify-items: first baseline;
+  gap: 2px;
 }
 
 .side > .places {
@@ -93,7 +99,15 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-areas: "search user" "headline interact";
   grid-template-columns: 1.5fr 1fr;
   grid-template-rows: .5fr .5fr;
-  gap: 3rem;
+  gap: .1rem;
+}
+
+.head .search, .head .headline {
+  justify-self: start;
+}
+
+.head .user, .head .interact {
+  justify-self: end;
 }
 
 .head > .search {
@@ -101,6 +115,13 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   /* justify-content: start; */
   margin: 5px;
+}
+
+.head button {
+  background-color: var(--highlight1);
+  border-radius: 10px;
+  width: 3rem;
+  border: none;
 }
 
 input[type="search"] {
@@ -117,9 +138,13 @@ input[type="search"] {
 
 .head > .user {
   grid-area: user;
+  display: flex;
 }
 
-
+.user img {
+  width: 1rem;
+  height: auto;
+}
 
 #icons {
   width: 2rem;
@@ -177,8 +202,9 @@ input[type="search"] {
 
 .proj > div {
   background-color: #228B22;
-  border-left: 4px double #FFA500;
+  border-left: 4px double var(--highlight1);
   --shadowcol: #355E3B;
+  padding: 5px;
 }
 
 .main > .updates {
@@ -191,6 +217,7 @@ input[type="search"] {
 .updates div {
   background-color: #FF1493;
   --shadowcol: #C71585;
+  padding: 5px;
 }
 
 /* .main > .ann {
