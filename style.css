@@ -35,9 +35,12 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Griffy", system-ui;
+  font-family: "Griffy", system-ui, sans-serif;
 }
 
+.proj div::first-letter {
+  font-family: "Griffy", system-ui, sans-serif;
+}
 /* ^ FONTS */
 
 .dashboard {
@@ -185,10 +188,11 @@ input[type="search"] {
   
 }
 
-.main div {
+.proj>div, .updates>div {
   border-radius: 20px;
   box-shadow: 10px 10px 10px var(--shadowcol);
   margin: 5px;
+  padding: 7px;
 }
 
 .main > .proj {
@@ -197,14 +201,28 @@ input[type="search"] {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
   gap: 50px;
-  font-size: .6rem;
+  font-size: .5rem;
 }
 
 .proj > div {
   background-color: #228B22;
   border-left: 4px double var(--highlight1);
   --shadowcol: #355E3B;
-  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.proj #social {
+  justify-self: end;
+  align-self: end;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+}
+
+#social img {
+  width: 30px;
+  height: auto;
 }
 
 .main > .updates {
